@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: inline-block;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(250, 235, 215, 0.112);
+}
+.div1{
+    border: 1px solid gray;
+    background-color: rgb(45, 107, 45);
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+}
+.div2{
+    background-color: whitesmoke;
+    padding: 0.6rem;
+    color: #333;
+    font-weight: 500 ;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #f9f8f8;
+    background-color: #d4d39115;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+figure{
+    margin-top: 23px;
+    font: inherit;
+}
+ .div4{
+    font-size: 1.15rem;
+    color: #333;
+    margin-bottom: 1px;
+ }
+ input {
+    padding: 11px ;
+    width: 95%;
+    border: none;
+    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.101) ;
+    border-radius: 6px;
+    font: inherit;
+ }
+ 
+ .bottom{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.1rem;
+    align-items: center;
+    font-size: 1.075rem;
+    color: #333333b6;
+ }
+ .bottom .first img{
+    width: 40px;
+ }
+ .fp{
+    display: flex;
+    margin-top: 0.2rem;
+    margin-left: 1.1rem;
+    margin-bottom: 1.5rem;
+ }
+ .fp a,
+ a:visited {
+    font: inherit;
+    font-weight:350 ;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #0a65f7b8;
+ }
+ button{
+    padding: 10px ;
+    width: 95%;
+    border: none;
+    margin: 10px;
+    color:whitesmoke;
+    /* background-color: #4580e0ee; */
+    background-color:#0a65f7b8;
+    border-radius: 5px;
+    font: inherit;
+ }
+ .neww{
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    gap: 1.3rem;
+ }
+ .neww .new1 img{
+    width: 100px;
+    height: 100px;
+ }
+ .new2{
+    font: inherit;
+    color: #333333b6;
+    font-weight: 400;
+ }
+ .neww  .new2  a, 
+ a:visited {
+    color: #0a65f7b8;
+    text-decoration: none;
+ }
